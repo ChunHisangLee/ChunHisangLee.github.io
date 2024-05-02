@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    color: #FFFFFF;
-    background-color: #333333;
+    color: #333333;
+    background-color: #FFFFFF;
     line-height: 1.6;
     text-align: center;
     padding: 10px;
@@ -11,17 +11,19 @@ body {
 header {
     font-size: 24px;
     width: 100%;
-    background-color: #444444;
+    background-color: #EFEFEF;
     padding: 20px;
     text-align: center;
-    margin: 3px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav {
     display: inline-block;
     width: 80%;
-    background-color: #555555;
+    background-color: #DDDDDD;
     padding: 10px;
+    border-radius: 5px;
 }
 
 nav ul {
@@ -29,44 +31,44 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    justify-content: space-around;
 }
 
 nav img {
     height: auto;
-    width: 10%;
+    width: 8%;
 }
 
 main {
     display: block;
     width: 80%;
-    background-color: #666666;
+    background-color: #F0F0F0;
     margin: 20px auto;
-    padding: 10px;
-}
-
-ul {
-    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 p {
     font-size: 16px;
-    color: #CCCCCC;
+    color: #666666;
     line-height: 1.8;
 }
 
 footer {
     font-size: 14px;
-    color: #AAAAAA;
-    background-color: #222222;
+    color: #666666;
+    background-color: #EAEAEA;
     width: 100%;
     padding: 10px 0;
     text-align: center;
+    border-top: 1px solid #CCCCCC; /* Subtle top border */
 }
 
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     row-gap: 20px;
 }
