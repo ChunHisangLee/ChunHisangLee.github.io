@@ -14,10 +14,28 @@ header {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    width: 80%;
     background-color: #555555;
-    width: 100%;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    /* commented out previous li style
+    margin-right: 50px;
+    */
+}
+
+nav img {
+    height: auto;
+    width: 10%; /* modified from 100px */
 }
 
 main {
@@ -28,19 +46,15 @@ main {
     padding: 10px;
 }
 
-ul li {
-    font-size: 16px;
-    text-align: left;
-    line-height: 2;
+ul {
+    justify-content: space-between;
 }
-
 
 p {
     font-size: 16px;
     color: #CCCCCC;
     line-height: 1.8;
 }
-
 
 footer {
     font-size: 14px;
@@ -49,4 +63,22 @@ footer {
     width: 100%;
     padding: 10px 0;
     text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center; /* adjust as per your need */
+    align-items: center; /* adjust as per your need */
+    row-gap: 20px; /* adjust as per your need */
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* adjust as per your need */
+    justify-content: space-around; /* adjust as per your need */
 }
