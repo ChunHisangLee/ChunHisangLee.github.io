@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="css/gallery.css">
-    <script src = "js/gallery.js"></script>
+    <script src="js/gallery.js" defer></script>
 </head>
-<body>
+<body onload="initializeGallery()">
 
-<div id = "image">
+<div id="image">
     Hover over an image below to display here.
 </div>
 
-<img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
-
-<img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()">
-
-<img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
+<img class="preview" alt="001" src="images/001.jpg" onmouseover="upDate(this)" onmouseout="unDo()"
+     onfocus="upDate(this)" onblur="unDo()">
+<img class="preview" alt="002" src="images/002.jpg" onmouseover="upDate(this)" onmouseout="unDo()"
+     onfocus="upDate(this)" onblur="unDo()">
+<img class="preview" alt="003" src="images/003.jpg" onmouseover="upDate(this)" onmouseout="unDo()"
+     onfocus="upDate(this)" onblur="unDo()">
+<img class="preview" alt="004" src="images/004.jpg" onmouseover="upDate(this)" onmouseout="unDo()"
+     onfocus="upDate(this)" onblur="unDo()">
+<img class="preview" alt="005" src="images/005.jpg" onmouseover="upDate(this)" onmouseout="unDo()"
+     onfocus="upDate(this)" onblur="unDo()">
+<img class="preview" alt="006" src="images/006.jpg" onmouseover="upDate(this)" onmouseout="unDo()"
+     onfocus="upDate(this)" onblur="unDo()">
 
 </body>
 </html>
